@@ -1,0 +1,1 @@
+export {AddNews} from "./AddNews"

@@ -1,0 +1,154 @@
+#product {
+    margin: 100px 50px 100px 350px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.add button {
+    color: #fff;
+    background-color: #415465;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.add p {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.add .icon {
+    font-size: 25px;
+    color: #415465;
+}
+
+.add span {
+    font-size: 18px;
+    color: #415465;
+}
+
+.add div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.product-table {
+    margin: 70px 0 0;
+}
+
+#product table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+#product th, #product td {
+    border: 1px solid #00000033;
+    padding: 10px 20px;
+}
+
+#product th {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#product td {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#product th:first-child {
+    width: 15%;
+}
+
+#product th:nth-child(2) {
+    width: 32%;
+}
+
+#product th:nth-child(3) {
+    width: 32%;
+}
+
+#product th:nth-child(4) {
+    width: 15%;
+}
+
+#product th:nth-child(5) {
+    width: 6%;
+}
+
+#product td img {
+    height: 100px;
+    width: 30px;
+}
+
+.product-table td span:first-child {
+    color: #415465;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.product-table td span:last-child {
+    color: #e34444;
+    font-size: 18px;
+}
+
+.add-product {
+    margin: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.add-product .product-inf {
+    margin: 20px 0;
+}
+
+.add-product .add-img {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 40px;
+    color: #00000080;
+} 
+
+.add-product .add-image {
+    margin: 0 30px 0 0;
+}
+
+.add-product input {
+    margin: 10px 0 10px 20px;
+    width: 50%;
+    height: 30px;
+    border: 1px solid #00000080;
+}
+
+.add-product .select span {
+    margin: 0 10px 0;
+}
+
+.add-product button {
+    background-color: #fff;
+    border: 1px solid #374754;
+    color: #374754;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-left: 60%;
+    margin-top: 20px;
+}

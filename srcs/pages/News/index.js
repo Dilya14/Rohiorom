@@ -1,0 +1,1 @@
+export {Newes} from "./News";

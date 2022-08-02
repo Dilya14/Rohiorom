@@ -1,0 +1,37 @@
+#clients {
+    margin: 60px 130px;
+}
+
+.clients_logo {
+    padding: 0 50px 0 10px;
+}
+
+.clients_logo div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+#clients img { 
+    width: 100%;
+}
+
+
+@media screen and (max-width: 480px) {
+    #clients {
+        margin: 20px 20px;
+    }
+
+    #clients h2 {
+        font-size: 22px;
+    }
+
+    .clients_logo {
+        padding: 0 10px 0 10px;
+    }
+
+    .clients_logo div {
+        height: 80px;
+    }
+}

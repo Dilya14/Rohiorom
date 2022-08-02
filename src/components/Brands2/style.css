@@ -1,0 +1,127 @@
+#brands-page {
+    margin: 50px 120px 80px;
+}
+
+#brands-page h1 {
+    padding: 0 0 20px;
+}
+
+.brand {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#brands-page .brand_logo {
+    border: #7797AE33;
+    box-shadow: 0px 0px 10px 0px #00000026;
+    border-radius: 7px;
+    text-align: center;
+    width: 220px;
+    height: 160px;
+    margin: 10px 30px 20px 0;
+}
+
+.brand a:first-child img {
+    width: 200px;
+    margin: 60px 0;
+}
+
+.brand a:nth-child(2) img {
+    width: 200px;
+    margin: 15px 0;
+}
+
+.brand a:nth-child(3) img {
+    width: 200px;
+    margin: 10px 0;
+}
+
+.brand a:nth-child(4) img {
+    width: 170px;
+    margin: 10px 0;
+}
+
+.brand a:nth-child(5) img {
+    width: 190px;
+    margin: 20px 0;
+}
+
+
+@media screen and (min-width: 1500px) {
+    #brands-page .brand_logo {
+        text-align: center;
+        width: 320px;
+        height: 220px;
+        margin: 10px 30px 20px 0;
+    }
+    
+    .brand a:first-child img {
+        width: 280px;
+        margin: 85px 0;
+    }
+    
+    .brand a:nth-child(2) img {
+        width: 290px;
+        margin: 15px 0;
+    }
+    
+    .brand a:nth-child(3) img {
+        width: 290px;
+        margin: 10px 0;
+    }
+    
+    .brand a:nth-child(4) img {
+        width: 240px;
+        margin: 10px 0;
+    }
+    
+    .brand a:nth-child(5) img {
+        width: 280px;
+        margin: 20px 0;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    #brands-page {
+        margin: 80px 20px 90px;
+    }
+
+    #brands-page h1 {
+        padding: 0 0 15px;
+    }
+    
+    #brands-page .brand_logo {
+        border-radius: 5px;
+        width: 140px;
+        height: 90px;
+        margin: 10px 20px 10px 0;
+    }
+    
+    .brand a:first-child img {
+        width: 110px;
+        margin: 35px 0;
+    }
+    
+    .brand a:nth-child(2) img {
+        width: 100px;
+        margin: 15px 0;
+    }
+    
+    .brand a:nth-child(3) img {
+        width: 100px;
+        margin: 13px 0;
+    }
+    
+    .brand a:nth-child(4) img {
+        width: 90px;
+        margin: 5px 0;
+    }
+    
+    .brand a:nth-child(5) img {
+        width: 100px;
+        margin: 13px 0;
+    }
+}

@@ -1,0 +1,39 @@
+#quantity {
+    margin: 100px 50px 0 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#quantity p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 420px;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+#quantity span {
+    font-size: 35px;
+    color: #415465;
+}
+
+
+@media screen and (min-width: 1500px) {
+    #quantity p {
+        width: 550px;
+        padding: 20px;
+        font-size: 25px;
+    }
+
+    #quantity span .icon {
+        font-size: 40px;
+        color: #415465;
+    }
+}
