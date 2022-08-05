@@ -5,10 +5,9 @@ import { Footer } from "../../components/Footer/Footer";
 import { Navbar } from "../../components/Navbar/Navbar";
 
 export const Brand = () => {
-  const [brand] = useState(true);
   return (
     <>
-      <Navbar brand_actives={brand} main_actives={false} />
+      <Navbar />
       <Brands2 />
       <Footer />
     </>

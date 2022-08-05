@@ -8,7 +8,7 @@ import { Navbar } from "../../components/Navbar/Navbar";
 import { Partners } from "../../components/Partners/Partners";
 
 export const Main = () => {
-  const [main] = useState(true);
+  const [main] = useState(false);
   return (
     <>
       <Navbar main_actives={main} />

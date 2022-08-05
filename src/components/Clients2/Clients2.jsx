@@ -12,8 +12,7 @@ export const Clients2 = () => {
   const [open, setOpen] = useState(false);
   return (
     <section id="clients-page">
-      <h1>КЛИЕНТАМ</h1>
-      <h4>ДОРОГОЙ КЛИЕНТ!</h4>
+      <h1>ДОРОГОЙ КЛИЕНТ</h1>
       <p className="text-2">
         Компания Рохи Ором поставляет продукцию в сетевую и несетевую розницу,
         на оптовые рынки, оптовые базы, в отели, рестораны и кафе крупных
@@ -26,7 +25,7 @@ export const Clients2 = () => {
         <br />
         <br />
       </h4>
-      <h4>СОТРУДНИЧАЯ С НАМИ ВЫ ПУЛУЧАЕТЕ:</h4>
+      <h4>СОТРУДНИЧАЯ С НАМИ ВЫ ПОЛУЧАЕТЕ:</h4>
       <div className="advantages">
         <div className="adv_block">
           <img src={Warranty} alt="" />

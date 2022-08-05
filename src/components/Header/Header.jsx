@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import Rectangle30 from "./assets/Rectangle30.png";
 import Ultra from "./assets/Ultra425x200-01.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -22,24 +21,6 @@ export const Header = () => {
   return (
     <section id="header">
       <Slider {...settings}>
-        <div className="slider">
-          <div className="slider_item">
-            <div className="slider_img">
-              <img src={Rectangle30} alt="" />
-            </div>
-            <div className="slider_text">
-              <h1>
-                FLASH ENERGY - ЗАРЯЖАЙ <br /> И УЕЗЖАЙ НА НОВОМ
-                <br /> АВТОМОБИЛЕ
-              </h1>
-              <p>
-                Заряжай призы энергией и выигрывай с<br /> регистрацией каждого
-                кода на номер 3800!
-              </p>
-              <button>Подробнее</button>
-            </div>
-          </div>
-        </div>
         <div className="slider">
           <div className="slider_item">
             <div className="slider_img">

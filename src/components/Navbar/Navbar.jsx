@@ -5,9 +5,8 @@ import "./style.css";
 import Logo from "./assets/logo1.png";
 import { BsTelephoneFill } from "react-icons/bs";
 
-export const Navbar = (main_actives, brand_actives) => {
+export const Navbar = (main_actives) => {
   const [menu, setMenu] = useState(false);
-  console.log(brand_actives);
   console.log(main_actives);
   return (
     <div className="navbar">

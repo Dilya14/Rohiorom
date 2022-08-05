@@ -1,1 +1,0 @@
-export {PageNews} from "./PageNews"

@@ -34,17 +34,21 @@ export const Footer = () => {
         <hr />
         <div className="contact">
           <p>
-            <BsTelephoneFill /> <span>(+992) 88 000 6084</span>
+            <a href="tel:880006084">
+              <BsTelephoneFill /> <span>(+992) 88 000 6084</span>
+            </a>
           </p>
           <p>
-            <FaEnvelope /> <span>office@rohiorom.tj</span>
+            <a href="mailto:office@rohiorom.tj">
+              <FaEnvelope /> <span>office@rohiorom.tj</span>
+            </a>
           </p>
           <p>
             <IoLocationSharp /> <span>г. Худжанд, пр-т И.Сомони, 44</span>
           </p>
         </div>
         <div className="social-networks">
-          <a href="#">
+          <a href="https://wa.me/880006084">
             <img src={WhatsApp} alt="WhatsApp" />
           </a>
           <a href="#">
